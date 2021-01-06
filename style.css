@@ -10,7 +10,7 @@ body{
 }
 .topnav a {
     float:right;
-    color: black;
+    color:seagreen;
     text-align: center;
     padding: 14px 10px;
     text-decoration: none;
@@ -26,8 +26,7 @@ body{
     height: 50px;
 }
 section{
-    height: 500px;
-
+    height: 550px;
 }
 .name-picture{
     width: 40%;
@@ -38,13 +37,13 @@ section{
    
 }
 .name-picture img{
-    width: 100%;
+    width: 80%;
     
 
 }
 .name-color{
     font-size: 70px;
-    color: darkgoldenrod;
+    color: rgb(233, 66, 66);
 
 }
 .greeting-color{
@@ -62,6 +61,134 @@ section{
     color: whitesmoke;
     font-weight: bold;
 }
-
-
+.about-me{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
     
+}
+.about-me img{
+    width: 80%;
+}
+p{
+    color: dimgray;
+}
+
+.download-cv{
+text-decoration: none;
+background-image: linear-gradient(to right, red, yellow);
+ padding: 10px 20px;
+ border-radius: 10px;
+ color: whitesmoke;
+ font-weight: bold;
+ 
+}
+h2{
+    font-size: 40px;
+    color: darkslateblue;
+}
+
+.working-projects{
+    background-color: #f8f9f6;
+}
+    .headline{
+        text-align: center;
+        padding-top: 40px;
+        padding-bottom: 20px;
+        
+        font-size: 30px;
+    }
+    .color-word{
+        color: #f46060;
+    }
+   .project{
+    width:370px;
+    height: 374px;
+    float: left;
+    margin-left: 25px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    background-color: white;
+        
+   }
+   .project img{
+       width: 343px;
+       height: 213px;
+       padding: 10px 10px;
+       
+   }
+   .project p{
+       font-size: medium;
+       font-weight: lighter;
+       padding: 5px 10px;
+   }
+
+   .web{
+       margin-left: 40px;
+       margin-right: 40px;
+   }
+   h3{
+       font-size: 20px;
+       font-weight: bold;
+       color: mediumslateblue;
+       padding: 5px 30px 0 30px;
+   }
+       
+       
+   .work-quiry{
+       height: 500px;
+       background-image: url("images/group.png");
+       background-repeat: no-repeat;
+       background-position: center;
+       background-size: 70%;
+       text-align: center;
+       
+       
+   }
+   .quiry-text{
+     
+     
+      font-size: 45px;
+      color: rgb(240, 238, 233);
+      margin-right: 250px;
+      font-family: sans-serif;
+      font-weight: bold;
+      
+   }
+   .chat-button{
+    text-decoration: none;
+    background-color: tomato;
+     padding: 25px 35px;
+     color: white;
+     font-weight: bold;
+     font-family: serif;
+     font-size: 20px;
+     margin-left: 100px;
+     text-align: center;
+    
+         
+   }
+   .chat-for-work{
+       padding-top: 220px;
+   }
+
+   .contact{
+       text-align: center;
+       
+   }
+   .icon-design img{
+       height: 36px;
+       width: 36px;
+       margin-left: 20px;
+       
+   }
+   .icon-design{
+       text-decoration: none;
+   }
+   h4{
+       font-size: 30px;
+       font-weight: normal;
+       color:seagreen;
+   }
+   
