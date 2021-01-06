@@ -1,0 +1,67 @@
+
+body{
+
+    font-family: 'Ubuntu', sans-serif;
+}
+.topnov{
+    background-color: blue;
+    overflow: hidden;
+    margin-right: 10px;
+}
+.topnav a {
+    float:right;
+    color: black;
+    text-align: center;
+    padding: 14px 10px;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+
+}
+.navigation-bar{
+    height: 50px;
+}
+section{
+    height: 500px;
+
+}
+.name-picture{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+   
+   
+}
+.name-picture img{
+    width: 100%;
+    
+
+}
+.name-color{
+    font-size: 70px;
+    color: darkgoldenrod;
+
+}
+.greeting-color{
+    font-size: 50px;
+    color: darkolivegreen;
+    border: white;
+    
+    
+}
+.button{
+    text-decoration: none;
+   background-image: linear-gradient(to right, red, yellow);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+
+    
