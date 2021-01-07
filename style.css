@@ -14,7 +14,7 @@ body{
     text-align: center;
     padding: 14px 10px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 15px;
     
 }
 .topnav a:hover {
@@ -86,11 +86,11 @@ background-image: linear-gradient(to right, red, yellow);
 }
 h2{
     font-size: 40px;
-    color: darkslateblue;
+    color: rgb(90, 71, 199);
 }
 
 .working-projects{
-    background-color: #f8f9f6;
+    background-color: #d8e5e73b;
 }
     .headline{
         text-align: center;
@@ -107,7 +107,7 @@ h2{
     height: 374px;
     float: left;
     margin-left: 25px;
-    box-shadow: 10px 10px 40px gray;
+    box-shadow: 10px 5px 10px gray;
     border-radius: 10px;
     background-color: white;
         
@@ -143,6 +143,7 @@ h2{
        background-position: center;
        background-size: 70%;
        text-align: center;
+       
        
        
    }
