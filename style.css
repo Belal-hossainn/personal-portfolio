@@ -91,11 +91,11 @@ h2{
 .working-projects{
     background-color: #d8e5e73b;
 }
+    
     .headline{
         text-align: center;
         padding-top: 40px;
         padding-bottom: 20px;
-        
         font-size: 30px;
     }
     .color-word{
@@ -126,6 +126,7 @@ h2{
    .div-margin{
        margin-left: 40px;
        margin-right: 40px;
+      
    }
    h3{
        font-size: 20px;
@@ -135,41 +136,45 @@ h2{
    }
        
    .work-offer{
-       background-image: linear-gradient(to bottom,#7a19f1,#332179);
+       background-color: #7410f715;
+       
        height: 600px;
-   }
-   .offer-div-margin{
-       margin-left: 180px;
        
    }
+   .offer-div-margin{
+       margin-left: 275px;
+       margin-right: 100px;
+   }
    .offer-headline{
-       color:white;
+       color:black;
        text-align: center;
-       font-size: 50px;
+       font-size: 70px;
        font-weight: bold;
        padding-top: 20px;
    }
    .my-offer{
-    width:300px;
-    height: 200px;
+    width:250px;
+    height: 180px;
     float: left;
     margin-left: 10px;
     margin-top: 10px;
     box-shadow: 0;
-    border-radius: none;
+    border-radius: 5px;
     background-color: white;
    }
    .my-offer h1{
-    color: seagreen;
+    color: rgb(67, 67, 80);
     text-align: center;
-    font-size: 30px;
-    padding-top: 10px;
-    padding-bottom: 50px;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    
+    font-weight: normal;
    }
        .my-offer img{
         width:25%;
         height: auto;
-        padding: 20px 112px 5px 112px;
+        padding: 20px 90px 5px 90px;
        }
    .work-quiry{
        height: 500px;
@@ -211,6 +216,9 @@ h2{
 
    .contact{
        text-align: center;
+       background-color: #5ab3b62f;
+       padding-top: 10px;
+      
        
    }
    .icon-design img{
@@ -225,7 +233,7 @@ h2{
    h4{
        font-size: 30px;
        font-weight: normal;
-       color:seagreen;
+       color:darkslategray;
    }
 
    .btn {
