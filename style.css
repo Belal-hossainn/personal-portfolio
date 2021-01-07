@@ -5,7 +5,7 @@ body{
 }
 .topnov{
     background-color: blue;
-    overflow: hidden;
+    overflow:hidden;
     margin-right: 10px;
 }
 .topnav a {
@@ -18,13 +18,16 @@ body{
     
 }
 .topnav a:hover {
-    background-color: #ddd;
+    background-color: whitesmoke;
     color: black;
 
 }
 .navigation-bar{
     height: 50px;
+    
 }
+
+
 section{
     height: 550px;
 }
@@ -38,6 +41,7 @@ section{
 }
 .name-picture p{
     margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .name-picture img{
     width: 80%;
@@ -63,19 +67,22 @@ section{
     border-radius: 10px;
     color: whitesmoke;
     font-weight: bold;
-    font-family: sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
 }
 .about-me{
     width: 40%;
     float: left;
     margin-left: 5%;
     padding-left: 2%;
+
     
     
 }
 .about-me p{
     margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 .about-me img{
     width: 80%;
 }
