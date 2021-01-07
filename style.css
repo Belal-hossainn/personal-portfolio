@@ -36,6 +36,9 @@ section{
    
    
 }
+.name-picture p{
+    margin-bottom: 30px;
+}
 .name-picture img{
     width: 80%;
     
@@ -53,13 +56,14 @@ section{
     
     
 }
-.button{
+.hireme{
     text-decoration: none;
-   background-image: linear-gradient(to right, red, yellow);
+   background-image: linear-gradient(to right, #ff512f , #dd2476);
     padding: 10px 20px;
     border-radius: 10px;
     color: whitesmoke;
     font-weight: bold;
+    font-family: sans-serif;
 }
 .about-me{
     width: 40%;
@@ -67,6 +71,10 @@ section{
     margin-left: 5%;
     padding-left: 2%;
     
+    
+}
+.about-me p{
+    margin-bottom: 30px;
 }
 .about-me img{
     width: 80%;
@@ -75,15 +83,6 @@ p{
     color: dimgray;
 }
 
-.download-cv{
-text-decoration: none;
-background-image: linear-gradient(to right, red, yellow);
- padding: 10px 20px;
- border-radius: 10px;
- color: whitesmoke;
- font-weight: bold;
- 
-}
 h2{
     font-size: 40px;
     color: rgb(90, 71, 199);
@@ -124,7 +123,7 @@ h2{
        padding: 5px 10px;
    }
 
-   .web{
+   .div-margin{
        margin-left: 40px;
        margin-right: 40px;
    }
@@ -135,7 +134,43 @@ h2{
        padding: 5px 30px 0 30px;
    }
        
+   .work-offer{
+       background-image: linear-gradient(to bottom,#7a19f1,#332179);
+       height: 600px;
+   }
+   .offer-div-margin{
+       margin-left: 180px;
        
+   }
+   .offer-headline{
+       color:white;
+       text-align: center;
+       font-size: 50px;
+       font-weight: bold;
+       padding-top: 20px;
+   }
+   .my-offer{
+    width:300px;
+    height: 200px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    box-shadow: 0;
+    border-radius: none;
+    background-color: white;
+   }
+   .my-offer h1{
+    color: seagreen;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+   }
+       .my-offer img{
+        width:25%;
+        height: auto;
+        padding: 20px 112px 5px 112px;
+       }
    .work-quiry{
        height: 500px;
        background-image: url("images/group.png");
@@ -192,4 +227,13 @@ h2{
        font-weight: normal;
        color:seagreen;
    }
+
+   .btn {
+    background-image: linear-gradient(to right, #4568dc,#b06ab3) ;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 20px;
+    border: none;
+  }
    
